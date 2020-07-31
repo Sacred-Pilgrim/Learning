@@ -47,5 +47,7 @@ NB: commands used here work for git bash and may be different on `cmd`
 : Used to clone a certain repo into your github account.
 
 click [here](https://www.youtube.com/watch?v=ErJyWO8TGoM) to learn how to write a `.gitignore` file.
-click [here](https://www.youtube.com/watch?v=eJojC3lSkwg) to learn how to write a `readme.md` file
+
+click [here](https://www.youtube.com/watch?v=eJojC3lSkwg) to learn how to write a `readme.md` file.
+
 click [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#lists) to view markdown cheatsheet.
