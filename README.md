@@ -24,8 +24,8 @@ NB: commands used here work for git bash and may be different on cmd
    * run `ssh-add id_rsa` ( or whatever you named your ssh key file to be)
    * run `clip < id_rsa.pub` ( or whatever you named your ssh key file to be but add the .pud at the end)
    
-   login to your github account then go to *settings>SSH and GPG keys*
-   * click `new ssh key`
+   login to your github account then go to **settings>SSH and GPG keys**
+   * click **new ssh key**
    * enter the title of the key and paste content from your clipboard to the key field (press ctrl+V) then click **add ssh key**
       you'll be required to confirm your password.
  If all was done well without problems you should be able to push to your private repo
