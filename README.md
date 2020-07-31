@@ -12,7 +12,7 @@ NB: commands used here work for git bash and may be different on cmd
    If you want to list all files for a specific branch, e.g. master use [git ls-tree -r master --name-only](https://superuser.com/questions/429693/git-list-all-files-currently-under-source-control) 
 3) For you to push into a private repo, you need to configure an ssh connection.
    This is how you do it:
-   a) run "ssh-keygen -t rsa -b 4096 -C <youremail>
+   * run "ssh-keygen -t rsa -b 4096 -C <youremail>
       i) you will be asked to enter the filename you wish to save your ssh key in ( by default it is C:/users/<userprofilename>/.ssh/id_rsa)
       you can leave as default or specify a different filename (with that same path e.i C:/users/<userprofilename>/.ssh/diff_id_rsa)
       ii) you will asked for a passphrase (press enter to leave it as default)
