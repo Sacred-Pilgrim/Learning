@@ -13,7 +13,7 @@ NB: commands used here work for git bash and may be different on `cmd`
 3) For you to push into a private repo, you need to configure an ssh connection.
    This is how you do it:
    * run `ssh-keygen -t rsa -b 4096 -C <youremail>`
-   ######
+   
       * you will be asked to enter the filename you wish to save your ssh key in ( by default it is C:/users/<userprofilename>/.ssh/id_rsa).
       * you can leave as default or specify a different filename (with that same path e.i C:/users/<userprofilename>/.ssh/diff_id_rsa).
       * you will asked for a passphrase (press enter to leave it as default).
@@ -29,7 +29,7 @@ NB: commands used here work for git bash and may be different on `cmd`
    * enter the title of the key and paste content from your clipboard to the key field (press ctrl+V) then click **add ssh key**
       you'll be required to confirm your password.
  If all was done well without problems you should be able to push to your private repo.
-
+---
 # Understanding some features of github 
 * Star
 : Used to bookmark a certain github repo.
