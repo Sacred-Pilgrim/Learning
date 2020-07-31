@@ -13,17 +13,17 @@ NB: commands used here work for git bash and may be different on cmd
 3) For you to push into a private repo, you need to configure an ssh connection.
    This is how you do it:
    * run "ssh-keygen -t rsa -b 4096 -C <youremail>
-      i) you will be asked to enter the filename you wish to save your ssh key in ( by default it is C:/users/<userprofilename>/.ssh/id_rsa)
-      you can leave as default or specify a different filename (with that same path e.i C:/users/<userprofilename>/.ssh/diff_id_rsa)
-      ii) you will asked for a passphrase (press enter to leave it as default)
-      iii) you will asked for a passphrase again (press enter to leave it as default)
-   b) change directories to c:/.ssh using "cd ~/.shh"
-   c) run "eval (ssh-agent -s)"
-   d) run "ssh-add id_rsa ( or whatever you named your ssh key file to be)
-   e) run "clip < id_rsa.pub ( or whatever you named your ssh key file to be but add the .pud at the end)
+      * you will be asked to enter the filename you wish to save your ssh key in ( by default it is C:/users/<userprofilename>/.ssh/id_rsa)
+      * you can leave as default or specify a different filename (with that same path e.i C:/users/<userprofilename>/.ssh/diff_id_rsa)
+      * you will asked for a passphrase (press enter to leave it as default)
+      * you will asked for a passphrase again (press enter to leave it as default)
+   * change directories to c:/.ssh using "cd ~/.shh"
+   * run "eval (ssh-agent -s)"
+   * run "ssh-add id_rsa ( or whatever you named your ssh key file to be)
+   * run "clip < id_rsa.pub ( or whatever you named your ssh key file to be but add the .pud at the end)
    
    login to your github account then go to settings>SSH and GPG keys
-   f) click "new ssh key"
-   g) enter the title of the key and paste content from your clipboard to the key field (press ctrl+V) then click "add ssh key"
+   * click "new ssh key"
+   * enter the title of the key and paste content from your clipboard to the key field (press ctrl+V) then click "add ssh key"
       you'll be required to confirm your password.
  If all was done well without problems you should be able to push to your private repo
